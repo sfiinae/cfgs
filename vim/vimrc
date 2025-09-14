@@ -102,3 +102,5 @@ set background=dark
 let g:onedark_termcolors=256
 " colorscheme onedark
 
+" 禁用自动注释功能
+autocmd FileType * setlocal formatoptions-=cro
